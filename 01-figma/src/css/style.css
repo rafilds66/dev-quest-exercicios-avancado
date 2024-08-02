@@ -1,0 +1,76 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Oxanium', cursive;
+    background-image: url(../img/bg-desktop\ 1.png);
+}
+
+.nome-personagem{
+   text-align: center;
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 6px;
+   text-transform: uppercase; 
+   border-bottom: 2px solid #47F4FF   
+}
+
+.descricao-personagem{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.informacoes-personagem{
+    width: 483px;
+}
+
+.personagem-selecionado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-left: 249px;
+}
+
+.personagem-grande{
+    width: 429px;
+}
+
+.logo{
+    width: 296px;
+    height: 152px;
+    margin-top: 18px;
+    margin-left: 572px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.selecao-personagem{
+    display: flex;
+    flex-direction: column;
+}
+
+.selecao-personagem h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47F4FF;
+    margin-bottom: 26px;
+    width: 585px;
+    height: 32px;
+    gap: 10px;
+}
+
+.quadro-personagens{
+    width: 585px;
+    height: 405px;
+    top: 260px;
+    left: 120px;
+    gap: 30px;
+    
+    
+}
